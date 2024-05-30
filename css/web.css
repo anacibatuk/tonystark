@@ -1,0 +1,118 @@
+.first_box{
+    background-image: url('/img/im_bac.jpg');
+    background-size: cover; /* Змінює розмір зображення, щоб покрити весь контейнер */
+    background-position: center; /* Центрує зображення */
+    background-repeat: no-repeat;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.menu{
+    display:flex;
+    justify-content: center;
+    letter-spacing: 2px;
+    color: #eeede6;
+    padding: 0 0 0 27px;
+}
+.polozka{
+    text-decoration: none;
+    color:rgb(226, 228, 230);
+    list-style-type:none;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.polozka a{
+    text-decoration: none;
+    color:rgb(226, 228, 230);
+    list-style-type:none;
+}
+.polozka a:hover{
+    color: white;
+}
+.polozka_loc{
+    text-decoration: none;
+    list-style-type:none;
+    padding-left: 60px;
+    padding-right: 60px;
+    height: 20px;
+}
+.header_text{
+    display:grid;
+    justify-content: center;
+    margin: 100px;
+}
+.header_text2{
+    display:grid;
+    justify-content: center;
+    margin: 10px;
+}
+.text{
+    color:rgb(188, 166, 166);
+}
+.section_about{
+    display: flex;
+    background-color: rgb(42, 40, 40);
+}
+.section_about img{
+height: 500px;
+padding: 50px;
+}
+.section_about p{
+    font-size: 1.5em;
+    text-align: center;
+    padding: 50px;
+}
+
+.section_explore{
+    background-color: rgb(42, 40, 40);
+    padding: 100px;
+    display:flex;
+}
+.explore_type{
+    padding: 100px;
+    margin: 20px;
+    color:rgb(188, 166, 166);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+.section_portfolio{
+    background-color: rgb(42, 40, 40);
+    padding: 50px;
+}
+.section_portfolio article{
+    display: flex;
+    color:rgb(188, 166, 166);
+}
+
+.my_portfolio_box{
+    padding: 30px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3), 0 6px 20px rgba(0, 0, 0, 0.19);
+}
+.my_portfolio_box img{
+width: 300px;
+}
+.contact_section{
+    padding: 30px;
+    background-color: rgb(42, 40, 40);
+    color:rgb(188, 166, 166);
+}
+.box_location{
+    display: flex;
+}
+.location_image{
+    width: 30px;
+    height: 30px;
+    padding-left: 10px;
+}
+.contact_information{
+    font-weight: bold;
+    margin: 10px;
+}
+.footer{
+    background-color: rgb(42, 40, 40);
+    color:rgb(188, 166, 166);
+}
+.footer_content{
+    padding: 1.5em 0 0 0;
+    justify-content: center;
+    text-align: center;
+  }
